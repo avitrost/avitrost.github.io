@@ -59,7 +59,7 @@ export function ProfileSection({ aboutMe }: ProfileSectionProps) {
           )}
         </p>
         <div className="flex gap-6 mb-6">
-          {aboutMe.blogUrl && (
+          {/* {aboutMe.blogUrl && (
             <a
               href={aboutMe.blogUrl}
               className="group inline-flex items-center gap-2 text-xs text-zinc-500 hover:text-zinc-900 transition-colors duration-300"
@@ -72,7 +72,7 @@ export function ProfileSection({ aboutMe }: ProfileSectionProps) {
               />
               <span className="tracking-wider uppercase">Blog</span>
             </a>
-          )}
+          )} */}
           {aboutMe.cvUrl && (
             <a
               href={aboutMe.cvUrl}
@@ -115,14 +115,14 @@ export function ProfileSection({ aboutMe }: ProfileSectionProps) {
           {aboutMe.twitterUsername && (
             <>
               <br />
-              <a
-                href={`https://twitter.com/${aboutMe.twitterUsername}`}
+                <a
+                href={`https://x.com/${aboutMe.twitterUsername}`}
                 className="inline-flex items-center gap-2 text-sm text-zinc-600 hover:text-zinc-900 transition-colors"
                 target="_blank"
                 rel="noopener noreferrer"
-              >
-                <Twitter size={14} />@{aboutMe.twitterUsername}
-              </a>
+                >
+                <span className="font-bold text-[14px]">𝕏</span>@{aboutMe.twitterUsername}
+                </a>
             </>
           )}
           {aboutMe.githubUsername && (
