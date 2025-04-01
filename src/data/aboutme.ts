@@ -23,7 +23,9 @@ export const aboutMe: AboutMe = {
   institution: "University of Wisconsin—Madison",
   // Note that links work in the description
   description:
-    "I'm a final-year <a href='https://www.stanford.edu'>PhD candidate</a> working at the intersection of causal inference and machine learning. My research focuses on developing robust, interpretable systems that can reason about cause and effect in complex environments.",
+    "Hi! I am a first year Computer Science PhD student at <a href='https://www.wisc.edu'>University of Wisconsin–Madison</a> working with <a href='https://pages.cs.wisc.edu/~fredsala/'>Fred Sala</a> and <a href='https://tengyangxie.github.io/'>Tengyang Xie</a>. As an undergraduate at <a href='https://www.brown.edu/'>Brown University</a>, I was fortunate to work with <a href='https://cs.brown.edu/people/sbach/'>Stephen Bach</a>." +
+    "<br><br>" +
+    "My research interests include synthetic data, data-centric ML, and reasoning. My recent emphasis has been on tailoring data for LLMs, and understanding the role that data plays. Feel free to reach out if you're interested in collaborating!",
   email: "astrost@wisc.edu",
   imageUrl:
     "/image_from_ios.jpg",

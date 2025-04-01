@@ -3,7 +3,6 @@ import {
   Github,
   Linkedin,
   Mail,
-  Twitter,
   ArrowUpRight,
   GraduationCap,
 } from "lucide-react";
@@ -121,7 +120,7 @@ export function ProfileSection({ aboutMe }: ProfileSectionProps) {
                 target="_blank"
                 rel="noopener noreferrer"
                 >
-                <span className="font-bold text-[14px]">𝕏</span>@{aboutMe.twitterUsername}
+                <span className="font-bold text-[14px] ml-0.5">𝕏</span>@{aboutMe.twitterUsername}
                 </a>
             </>
           )}
