@@ -29,6 +29,16 @@ export const publicationData: Publication[] = [
   //   // imageUrl: "/images/publication-image.jpg"
   // },
   {
+    year: "",
+    conference: "",
+    title: "R&B: Domain Regrouping and Data Mixture Balancing for Efficient Foundation Model Training",
+    authors: "Albert Ge, Tzu-Heng Huang, John Cooper, Avi Trost, Ziyi Chu, Satya Sai Srinath Namburi GNVV, Ziyang Cai, Kendall Park, Nicholas Roberts, Frederic Sala",
+    paperUrl: "https://arxiv.org/abs/2505.00358?",
+    // codeUrl: "https://github.com/BatsResearch/bonito",
+    tldr: "Reclustering data and reusing training gradients for data mixing.",
+    imageUrl: "/rnb.png"
+  },
+  {
     year: "2024",
     conference: "ACL Findings",
     title: "Learning to Generate Instruction Tuning Datasets for Zero-Shot Task Adaptation",
@@ -36,6 +46,6 @@ export const publicationData: Publication[] = [
     paperUrl: "https://arxiv.org/abs/2402.18334",
     codeUrl: "https://github.com/BatsResearch/bonito",
     tldr: "Training a model to generate conditional synthetic data for task adaptation.",
-    imageUrl: "/image2.png"
+    imageUrl: "/bonito.png"
   },
 ];
