@@ -14,7 +14,7 @@ export const educationData: Education[] = [
     year: "2024—Present",
     institution: "University of Wisconsin—Madison",
     degree: "Ph.D. in Computer Science",
-    advisor: "Prof. Fred Sala, Prof. Tengyang Xie",
+    advisor: "Prof. Kangwook Lee, Prof. Fred Sala",
   },
   {
     year: "2020—2024",
