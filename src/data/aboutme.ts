@@ -28,7 +28,7 @@ export const aboutMe: AboutMe = {
     "My research interests include reasoning, data-centric ML, and Transformers. Feel free to reach out for a chat!",
   email: "astrost@wisc.edu",
   imageUrl:
-    "/DSCN1569.jpg",
+    "/DSCN1569.JPG",
   googleScholarUrl: "https://scholar.google.com/citations?user=exZPwQoAAAAJ",
   githubUsername: "avitrost",
   linkedinUsername: "avi-trost",
