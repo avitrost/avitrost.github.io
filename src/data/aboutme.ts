@@ -34,7 +34,7 @@ export const aboutMe: AboutMe = {
   linkedinUsername: "avi-trost",
   twitterUsername: "atrost3122",
   blogUrl: "https://",
-  cvUrl: "https://drive.google.com/file/d/1nXPj3a8PclDyJYdmQCvGuPoDaDcS9EdH/view?usp=sharing",
+  cvUrl: "https://drive.google.com/file/d/1PxE1MobP91Yv5MiWGk7znYRS4hpZPf6a/view?usp=sharing",
   institutionUrl: "https://www.wisc.edu",
   // altName: "",
   // secretDescription: "I like dogs.",
