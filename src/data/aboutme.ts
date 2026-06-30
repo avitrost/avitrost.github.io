@@ -25,6 +25,8 @@ export const aboutMe: AboutMe = {
   description:
     "Hi! I am a second year Computer Science PhD student at <a href='https://www.wisc.edu'>University of Wisconsin–Madison</a> working with <a href='https://pages.cs.wisc.edu/~fredsala/'>Fred Sala</a>. As an undergraduate at <a href='https://www.brown.edu/'>Brown University</a>, I was fortunate to work with <a href='https://cs.brown.edu/people/sbach/'>Stephen Bach</a>." +
     "<br><br>" +
+    "This summer I'm currently doing a research internship at <a href='https://new.krafton.ai/en/'>KRAFTON AI</a>." +
+    "<br><br>" +
     "My research interests include elastic architectures, Transformers, and data-centric ML. Feel free to reach out for a chat!",
   email: "astrost@wisc.edu",
   imageUrl:

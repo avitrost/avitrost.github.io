@@ -31,6 +31,26 @@ export const publicationData: Publication[] = [
   {
     year: "",
     conference: "",
+    title: "Test-Time Scaling Makes Overtraining Compute-Optimal",
+    authors: "Nicholas Roberts, Sungjun Cho, Zhiqi Gao, Tzu-Heng Huang, Albert Wu, Gabriel Orlanski, Avi Trost, Kelly Buchanan, Aws Albarghouthi, Frederic Sala",
+    paperUrl: "https://arxiv.org/abs/2604.01411?",
+    // codeUrl: "https://github.com/BatsResearch/bonito",
+    tldr: "Modern scaling laws.",
+    imageUrl: "/t2scaling.png"
+  },
+  {
+    year: "2026",
+    conference: "ICML",
+    title: "Weight Updates as Activation Shifts: A Principled Framework for Steering",
+    authors: "Dyah Adila, John Cooper, Alexander Yun, Avi Trost, Frederic Sala",
+    paperUrl: "https://arxiv.org/abs/2603.00425?",
+    // codeUrl: "https://github.com/BatsResearch/bonito",
+    tldr: "Expressivity of steering.",
+    imageUrl: "/steering.png"
+  },
+  {
+    year: "",
+    conference: "",
     title: "R&B: Domain Regrouping and Data Mixture Balancing for Efficient Foundation Model Training",
     authors: "Albert Ge, Tzu-Heng Huang, John Cooper, Avi Trost, Ziyi Chu, Satya Sai Srinath Namburi GNVV, Ziyang Cai, Kendall Park, Nicholas Roberts, Frederic Sala",
     paperUrl: "https://arxiv.org/abs/2505.00358?",
