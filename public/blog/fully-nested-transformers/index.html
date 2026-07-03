@@ -131,6 +131,11 @@ root.querySelectorAll("h1, h2").forEach(h => {
   li.appendChild(a);
   tocList.appendChild(li);
 });
+(function hideDOI(tries) {
+  const h = [...document.querySelectorAll("d-byline h3")].find(x => /doi/i.test(x.textContent));
+  if (h) { (h.closest("d-byline > div > div") || h.parentElement).style.display = "none"; return; }
+  if (tries > 0) setTimeout(() => hideDOI(tries - 1), 200);
+})(15);
 </script>
 
 </body>
