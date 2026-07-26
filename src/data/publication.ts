@@ -5,6 +5,7 @@ export interface Publication {
   authors: string;
   paperUrl?: string;
   codeUrl?: string;
+  blogUrl?: string;
   bibtex?: string;
   tldr?: string;
   imageUrl?: string;
@@ -29,14 +30,24 @@ export const publicationData: Publication[] = [
   //   // imageUrl: "/images/publication-image.jpg"
   // },
   {
-    year: "",
-    conference: "",
+    year: "2026",
+    conference: "COLM",
     title: "Test-Time Scaling Makes Overtraining Compute-Optimal",
     authors: "Nicholas Roberts, Sungjun Cho, Zhiqi Gao, Tzu-Heng Huang, Albert Wu, Gabriel Orlanski, Avi Trost, Kelly Buchanan, Aws Albarghouthi, Frederic Sala",
     paperUrl: "https://arxiv.org/abs/2604.01411?",
     // codeUrl: "https://github.com/BatsResearch/bonito",
     tldr: "Modern scaling laws.",
     imageUrl: "/t2scaling.png"
+  },
+  {
+    year: "2026",
+    conference: "AdaptFM Resource-Adaptive Foundation Model Inference @ ICML",
+    title: "Fully Nested Transformers",
+    authors: "Avi Trost, Alexander Yun, John Cooper, Gabriel Orlanski, Frederic Sala",
+    paperUrl: "https://openreview.net/forum?id=yv7Ie3UzlA",
+    blogUrl: "https://avitrost.github.io/blog/fully-nested-transformers/",
+    tldr: "Nested models that share computation.",
+    imageUrl: "/fully_nested_img.png"
   },
   {
     year: "2026",
@@ -49,8 +60,8 @@ export const publicationData: Publication[] = [
     imageUrl: "/steering.png"
   },
   {
-    year: "",
-    conference: "",
+    year: "2025",
+    conference: "Data in Generative Models @ ICML",
     title: "R&B: Domain Regrouping and Data Mixture Balancing for Efficient Foundation Model Training",
     authors: "Albert Ge, Tzu-Heng Huang, John Cooper, Avi Trost, Ziyi Chu, Satya Sai Srinath Namburi GNVV, Ziyang Cai, Kendall Park, Nicholas Roberts, Frederic Sala",
     paperUrl: "https://arxiv.org/abs/2505.00358?",
