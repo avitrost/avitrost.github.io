@@ -23,11 +23,11 @@ export const aboutMe: AboutMe = {
   institution: "University of Wisconsin—Madison",
   // Note that links work in the description
   description:
-    "Hi! I am a second year Computer Science PhD student at <a href='https://www.wisc.edu'>University of Wisconsin–Madison</a> working with <a href='https://pages.cs.wisc.edu/~fredsala/'>Fred Sala</a>. As an undergraduate at <a href='https://www.brown.edu/'>Brown University</a>, I was fortunate to work with <a href='https://cs.brown.edu/people/sbach/'>Stephen Bach</a>." +
+    "Hi! I am a third year Computer Science PhD student at <a href='https://www.wisc.edu'>University of Wisconsin–Madison</a> working with <a href='https://pages.cs.wisc.edu/~fredsala/'>Fred Sala</a>. As an undergraduate at <a href='https://www.brown.edu/'>Brown University</a>, I was fortunate to work with <a href='https://cs.brown.edu/people/sbach/'>Stephen Bach</a>." +
     "<br><br>" +
-    "This summer I'm currently doing a research internship at <a href='https://new.krafton.ai/en/'>KRAFTON AI</a>." +
+    "Last summer I did a research internship at <a href='https://new.krafton.ai/en/'>KRAFTON AI</a>." +
     "<br><br>" +
-    "My research interests include elastic architectures, Transformers, and data-centric ML. Feel free to reach out for a chat!",
+    "My research interests include elastic architectures, efficient LLM inference, and data-centric ML. Feel free to reach out for a chat!",
   email: "astrost@wisc.edu",
   imageUrl:
     "/DSCN1569.JPG",
@@ -36,7 +36,7 @@ export const aboutMe: AboutMe = {
   linkedinUsername: "avi-trost",
   twitterUsername: "atrost3122",
   blogUrl: "https://",
-  cvUrl: "https://drive.google.com/file/d/1tozlvzwxdu2wZOBpqdPTE2hUxNx3X_9p/view?usp=sharing",
+  cvUrl: "https://drive.google.com/file/d/1Txfrek3q0D5iyY-3_p-UynkA0Rg12xet/view?usp=sharing",
   institutionUrl: "https://www.wisc.edu",
   // altName: "",
   // secretDescription: "I like dogs.",
